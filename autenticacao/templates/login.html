@@ -1,0 +1,63 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block 'head' %}
+    <link rel="stylesheet" href="{% static 'autenticacao/css/all.css' %}">
+{% endblock %}
+
+{% block 'titulo' %}Cadastre-se{% endblock %}
+
+{% block 'body' %}
+    <div class="container-fluid">
+
+        <div class="row">
+            <div class="col-md-3 sidebar">
+                <div class="logo_sidebar">
+
+                    <h2 class="logo">
+                        <img class="img_logo_sidebar" src="{% static 'autenticacao/img/logo_nutri_lab.png' %}">
+                    </h2>
+
+                </div>
+
+
+            </div>
+
+            <div class="col-md-9">
+                <div class="area_cadastrar">
+                    {% if messages %}
+                    <br>
+                        {% for message in messages %}
+                            <div class="alert {{message.tags}}">
+                            {{message}}
+                            </div>
+                        {% endfor %}
+                    {% endif %}
+                    <h2 class="titulo">Seja bem vindo</h2>
+                    <p class="sub-titulo">Entre com sua conta</p>
+                    <hr>
+
+                    <form action="{% url 'logar' %}" method="POST">{% csrf_token %}
+                        <span class="bold">Nome de usuário</span>
+                        <input class="form-control input-form" name="usuario" type="text" placeholder="Digite seu nome...">
+                        <br>
+                        <span class="bold">Senha</span>
+                        <input class="form-control input-form" name="senha" type="password" placeholder="Digite sua senha...">
+                        <br>
+                        <button class="btn-first">Logar</button>
+
+                    </form>
+                                                                               {% comment %} Foi adicionado um (href) para redirecionamento ao clicar no nesse botão {% endcomment %}
+                    <h3 style="position: absolute; bottom: 65px; font-weight: bold">Não tem uma conta ?&nbsp <a href="{% url 'cadastro' %}" class="btn btn-outline-success btn-lg">Registre-se</a> </h3>
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+
+{% endblock %}
