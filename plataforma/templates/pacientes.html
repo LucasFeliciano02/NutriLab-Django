@@ -1,0 +1,113 @@
+{% extends 'base_plataforma.html' %} 
+{% load static %}  {% comment %} Carrega os arquivos estáticos, <img> que estao no corpo desse html {% endcomment %}
+
+{% block 'plataforma' %}
+
+    {% if messages %}  {% comment %} MENSAGEM DE ERRO {% endcomment %}
+        <br>
+        {% for message in messages %}
+            <div class="alert {{message.tags}}">
+                {{message}}
+            </div>
+        {% endfor %}
+    {% endif %}
+
+    {% comment %} BOTAO DE NOVO PACIENTE {% endcomment %}
+    <br>  
+    <button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#modal">
+    Novo paciente
+    </button>
+
+    {% comment %} MODAL com um botao que ser clicado, aparece uma interface |  https://getbootstrap.com/docs/4.0/components/modal/  {% endcomment %}
+    <br>
+    <br>
+    <div  class="row">
+        
+        {% for paciente in pacientes %}
+            <div class="col-md-4">
+                <a href="#" class="link-hover">
+                    <div class="card-paciente">
+                        <div class="foto-perfil">
+
+                            {% if paciente.sexo == "M" %}
+                                <img src="{% static 'plataforma/img/perfil2.png' %}">
+                            {% else %}
+                                <img src="{% static 'plataforma/img/perfil1.png' %}">     
+                            {% endif %}
+
+                        </div>
+                        <br>
+                        <p class="dados">{{paciente.nome}}</p>
+                        <p class="dados">{{paciente.idade}} Anos</p>
+                    </div>
+                </a>
+            </div>
+        {% endfor %}
+    </div>
+        
+
+
+    {% comment %} MODAL que aparece as caracteristicas do paciente {% endcomment %}
+    <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title titulo" id="exampleModalLabel">Cadastrar paciente</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                
+                <div class="modal-body">
+                    {% comment %} Quando o usuario pressionar o botao de registrar, vai pra url pacientes, conforme está o "name" dentro da 'urls.py' desse app  {% endcomment %}
+                    <form action="{% url 'pacientes' %}" method="POST">{% csrf_token %}  {% comment %} para nao dar erro 'proibido' (ataque de falsificação de formulario) {% endcomment %}
+      
+      
+                        <div class="row">
+      
+                            <div class="col-md-3">
+                                <img src="{% static 'plataforma/img/perfil2.png' %}">
+                            </div>
+      
+                            <div class="col-md-9">
+                                <label>Nome:</label>
+                                <input type="text" placeholder="Digite o nome do paciente..." class="form-control" name="nome">
+                            </div>
+      
+                        </div>
+      
+                        <br>
+                        <label>Sexo:</label>
+                        <select name="sexo" class="form-control">
+                            <option value="M">Masculino</option>
+                            <option value="F">Feminino</option>
+                        </select>
+      
+                        <br>
+      
+                        <label>Idade:</label>
+                        <input type="number" placeholder="0" class="form-control" name="idade">
+                        
+                        <br>
+                        
+                        <label>E-mail:</label>
+                        <input type="email" placeholder="exemple@email.com" class="form-control" name="email">   
+      
+                        <br>
+                        
+                        <label>Telefone:</label>
+                        <input type="text" placeholder="+55 (00) 00000-0000" class="form-control" name="telefone">
+                        <br>
+                        <input type="submit" class="btn btn-success btn-lg" value="Registrar">
+                    
+                    </form>
+      
+      
+                </div>
+            
+            </div>
+        </div>
+    </div>
+
+
+{% endblock %}
