@@ -1,0 +1,30 @@
+{% load static %}
+<!doctype html>
+<html lang="pt-BR">
+        <head>
+            {% block 'head' %}{% endblock %}  {% comment %} Não é exibido no navegador, são para substiuídos por informações {% endcomment %}
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+            
+            <title>{% block 'titulo' %}{% endblock %}</title>
+        </head>
+    <body>
+
+        {% comment %} BARRA DE NAVEGAÇÃO QUE NAO APARECE NA AREA DE LOGIN E CADASTRO {% endcomment %}
+        {% if user.is_authenticated %}  {% comment %} Barra de navegação so aparece se o usuario estiver logado {% endcomment %}
+            <nav style="background-color: #27DB8F;" class="navbar navbar-expand-lg navbar-dark">
+                <a style="font-weight: bold" class="navbar-brand" href="#">NUTRI LAB</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button> 
+            </nav>
+        {% endif %}
+
+        {% block 'body' %}{% endblock %}
+        
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" ></script>
+    
+    </body>
+</html>
