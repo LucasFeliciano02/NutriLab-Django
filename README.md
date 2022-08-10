@@ -102,7 +102,7 @@ As seguintes ferramentas 🛠 foram utilizadas na construção do projeto:
     </tr>
     <tr>
       <td>Arquitetura MVT</td>
-      <td></td>
+      <td>Js</td>
     </tr>  
 	  
   </tbody>
