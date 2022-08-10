@@ -141,7 +141,7 @@ Além disto é bom ter um editor para trabalhar com o código, tal como: [VS Cod
     (env) pip install -r requirements.txt
 
 # Criar projeto
- ->  (env) django-admin startproject freelaway .
+ ->  (env) django-admin startproject nutrilab .
 
 # Criar apps
  ->  (env) python manage.py startapp autenticacao
