@@ -145,7 +145,7 @@ Além disto é bom ter um editor para trabalhar com o código, tal como: [VS Cod
 
 # Criar apps
  ->  (env) python manage.py startapp autenticacao
-     (env) python manage.py startapp jobs
+     (env) python manage.py startapp plataforma
 
 # Migrations
  ->  (env) python manage.py makemigrations
