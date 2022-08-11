@@ -62,8 +62,7 @@
 ## :dart: Sobre ##
 
 ```sh
-• Projeto feito em Django cujo o objetivo é uma aplicação para contratação de freelances.
-• Foi desenvolvida para conectar empresas e freelances.
+• Projeto feito em Django cujo o objetivo é uma aplicação para nutricionistas gerenciarem seus pacientes. 
 ```
 
 ## :sparkles: Funcionalidades ##
