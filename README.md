@@ -1,9 +1,9 @@
-<!-- <h4 align="center"> 
----
-	🚧  Projeto FreelaWay-Django 🚀 Em construção...  🚧
+ <h4 align="center"> 
+
+	🚧  Projeto NutriLab-Django 🚀 Em construção...  🚧
 </h4> 
 
-<hr> -->
+<hr> 
 
 <h1 align="center">NutriLab - PyStack Week 4.0</h1>
 
