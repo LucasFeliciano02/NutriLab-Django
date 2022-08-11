@@ -14,7 +14,7 @@
         {% comment %} BARRA DE NAVEGAÇÃO QUE NAO APARECE NA AREA DE LOGIN E CADASTRO {% endcomment %}
         {% if user.is_authenticated %}  {% comment %} Barra de navegação so aparece se o usuario estiver logado {% endcomment %}
             <nav style="background-color: #27DB8F;" class="navbar navbar-expand-lg navbar-dark">
-                <a style="font-weight: bold" class="navbar-brand" href="#">NUTRI LAB</a>
+                <a style="font-weight: bold" class="navbar-brand" href="{% url 'pacientes' %}">NUTRI LAB</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button> 
