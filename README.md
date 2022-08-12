@@ -9,7 +9,7 @@
 
 
 <div align="center" id="top">
-  <img alt="cadastro" title="cadastro" src="./cadastro_and_login.gif"/>
+  <img alt="cadastro e login" title="cadastro e login" src="./cadastro_and_login.gif"/>
 </h1>
 
 
