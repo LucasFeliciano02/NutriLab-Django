@@ -14,7 +14,7 @@
 
 
 <div align="center" id="top">
-  <img alt="cadastro" title="cadastro" src="./"/>
+  <img alt="dados_paciente" title="dados paciente" src="./"/>
 </h1>
 
 
