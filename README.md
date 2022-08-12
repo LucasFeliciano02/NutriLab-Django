@@ -7,9 +7,6 @@
 
 <h1 align="center">NutriLab - PyStack Week 4.0</h1>
 
-```sh
-• Clicar para melhor visualização
-```
 
 <div align="center" id="top">
   <img alt="cadastro e login" title="cadastro e login" src="./cadastro_and_login.gif"/>
