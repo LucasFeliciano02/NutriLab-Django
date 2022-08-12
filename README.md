@@ -19,7 +19,7 @@
 
 
 <div align="center" id="top">
-  <img alt="cadastro" title="cadastro" src="./"/>
+  <img alt="gerenciar_pacientes" title="gerenciar pacientes" src="./"/>
 </h1>
 
 
