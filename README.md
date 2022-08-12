@@ -57,7 +57,7 @@
 :heavy_check_mark: Autenticação e Cadastro de Usuário;\
 :heavy_check_mark: Gerenciar pacientes criando-os;\
 :heavy_check_mark: Colocar dados no paciente como peso, altura, gordura;\
-:heavy_check_mark: Ao colocar os dados, aparecerá uma tabela de linha que tende a subir ou descer conforme a próximo dados do paciente;\
+:heavy_check_mark: Ao colocar os dados, aparecerá uma tabela de linha que tende a subir ou descer conforme a próximo dado;\
 :heavy_check_mark: Por ser um arquivo de estudo, pode conter diversos comentários que o auxiliam no uso do django.
 
 
