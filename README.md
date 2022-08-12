@@ -12,10 +12,10 @@
   <img alt="cadastro e login" title="cadastro e login" src="./cadastro_and_login.gif"/>
 </h1>
 
-  <img alt="dados_paciente" title="dados paciente" src="./dados_paciente.gif"/>
+  <img alt="gerenciar_pacientes.gif" title="gerenciar pacientes" src="./gerenciar_pacientes.gif"/>
 </h1>
 
-  <img alt="gerenciar_pacientes.gif" title="gerenciar pacientes" src="./gerenciar_pacientes.gif"/>
+  <img alt="dados_paciente" title="dados paciente" src="./dados_paciente.gif"/>
 </h1>
 
   <img alt="plano_alimentar" title="plano alimentar" src="./plano_alimentar.gif"/>
