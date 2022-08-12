@@ -55,7 +55,7 @@
 
 
 :heavy_check_mark: Autenticação e Cadastro de Usuário;\
-:heavy_check_mark: Listagem, Detalhes e Aceite de Jobs;\
+:heavy_check_mark: Gerenciar pacientes criando-os;\
 :heavy_check_mark: Recuperação de senha;\
 :heavy_check_mark: Atualização de Perfil, Listagem de Jobs Aceitos e Envio de Arquivos;\
 :heavy_check_mark: Por ser um arquivo de estudo, pode conter diversos comentários que o auxiliam no uso do django.
