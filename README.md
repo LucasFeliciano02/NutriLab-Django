@@ -54,7 +54,7 @@
 ## :sparkles: Funcionalidades ##
 
 
-:heavy_check_mark: Autenticação e Cadastro de Usuário;\
+:heavy_check_mark: Autenticação, Cadastro de Usuário e login;\
 :heavy_check_mark: Gerenciar pacientes criando-os;\
 :heavy_check_mark: Colocar dados no paciente como peso, altura, gordura;\
 :heavy_check_mark: Ao colocar os dados, aparecerá uma tabela de linha que tende a subir ou descer conforme a próximo dado;\
