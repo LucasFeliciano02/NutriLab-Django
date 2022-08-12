@@ -1,38 +1,24 @@
- <h4 align="center"> 
-
+ <!-- <h4 align="center"> 
+---
 	🚧  Projeto NutriLab-Django 🚀 Em construção...  🚧
 </h4> 
 
-<hr> 
+<hr> -->
 
 <h1 align="center">NutriLab - PyStack Week 4.0</h1>
 
 
 <div align="center" id="top">
-  <img alt="cadastro" title="cadastro" src="./cadastro_and_login.gif"/>
+  <img alt="cadastro e login" title="cadastro e login" src="./cadastro_and_login.gif"/>
 </h1>
 
-
-<img alt="login" title="login" src="./2_login.PNG"/>
+  <img alt="gerenciar_pacientes.gif" title="gerenciar pacientes" src="./gerenciar_pacientes.gif"/>
 </h1>
 
-  <img alt="recuperar senha" title="recuperar senha" src="./3_recuperar_senha.gif"/>
+  <img alt="dados_paciente" title="dados paciente" src="./dados_paciente.gif"/>
 </h1>
 
-
-  <img alt="jobs" title="jobs" src="./4_jobs.PNG"/>
-</h1>
-
-
-  <img alt="aceitar jobs" title="aceitar jobs" src="./5_aceitar_jobs.PNG"/>
-</h1>
-
-
-  <img alt="historico" title="historico" src="./6_historico.PNG"/>
-</h1>
-
-
-  <img alt="perfil" title="perfil" src="./7_perfil.PNG"/>
+  <img alt="plano_alimentar" title="plano alimentar" src="./plano_alimentar.gif"/>
 </h1>
 
 
@@ -68,10 +54,11 @@
 ## :sparkles: Funcionalidades ##
 
 
-:heavy_check_mark: Autenticação e Cadastro de Usuário;\
-:heavy_check_mark: Listagem, Detalhes e Aceite de Jobs;\
-:heavy_check_mark: Recuperação de senha;\
-:heavy_check_mark: Atualização de Perfil, Listagem de Jobs Aceitos e Envio de Arquivos;\
+:heavy_check_mark: Autenticação, Cadastro de Usuário e login;\
+:heavy_check_mark: Gerenciar pacientes criando-os;\
+:heavy_check_mark: Colocar dados no paciente como peso, altura, gordura, dados laboratoriais;\
+:heavy_check_mark: Ao colocar os dados, aparecerá uma tabela de linha que tende a subir ou descer conforme a próximo dado;\
+:heavy_check_mark: Gerenciar o plano alimentar do paciente colocando a refeição, horário, macronutrientes, descrição e imagem;\
 :heavy_check_mark: Por ser um arquivo de estudo, pode conter diversos comentários que o auxiliam no uso do django.
 
 
