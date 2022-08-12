@@ -13,26 +13,18 @@
 </h1>
 
 
-<img alt="login" title="login" src="./2_login.PNG"/>
-</h1>
-
-  <img alt="recuperar senha" title="recuperar senha" src="./3_recuperar_senha.gif"/>
-</h1>
-
-
-  <img alt="jobs" title="jobs" src="./4_jobs.PNG"/>
+<div align="center" id="top">
+  <img alt="cadastro" title="cadastro" src="./"/>
 </h1>
 
 
-  <img alt="aceitar jobs" title="aceitar jobs" src="./5_aceitar_jobs.PNG"/>
+<div align="center" id="top">
+  <img alt="cadastro" title="cadastro" src="./"/>
 </h1>
 
 
-  <img alt="historico" title="historico" src="./6_historico.PNG"/>
-</h1>
-
-
-  <img alt="perfil" title="perfil" src="./7_perfil.PNG"/>
+<div align="center" id="top">
+  <img alt="cadastro" title="cadastro" src="./"/>
 </h1>
 
 
