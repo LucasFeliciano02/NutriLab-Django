@@ -12,19 +12,13 @@
   <img alt="cadastro e login" title="cadastro e login" src="./cadastro_and_login.gif"/>
 </h1>
 
-
-<div align="center" id="top">
-  <img alt="dados_paciente" title="dados paciente" src="./"/>
+  <img alt="dados_paciente" title="dados paciente" src="./dados_paciente.gif"/>
 </h1>
 
-
-<div align="center" id="top">
-  <img alt="gerenciar_pacientes" title="gerenciar pacientes" src="./"/>
+  <img alt="gerenciar_pacientes.gif" title="gerenciar pacientes" src="./gerenciar_pacientes.gif"/>
 </h1>
 
-
-<div align="center" id="top">
-  <img alt="plano_alimentar" title="plano alimentar" src="./"/>
+  <img alt="plano_alimentar" title="plano alimentar" src="./plano_alimentar.gif"/>
 </h1>
 
 
